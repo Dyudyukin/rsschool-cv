@@ -337,8 +337,144 @@ a {
 
 @media (max-width : 600px) {
 
+  .wrapper {
+    padding: 7px;
+  }
+
+  .main {
+    padding: 30px 15px 10px;
+  }
+
+  .header {
+    justify-content: center;
+  }
+
+  .logo-symbol {
+    width: 34px;
+    height: 34px;
+    font-size: 24px;
+  }
+
+  .about {
+    margin: 40px 0;
+    gap: 40px;
+  }
+
+  .about-img {
+    width: 190px;
+    height: 190px;
+    border: 10px solid #fff;
+  }
+
+  .about-content {
+    align-items: center;
+    max-width: 290px;
+  }
+
+  .about-content__title {
+    font-size: 14px;
+  }
+
+  .about-content__name {
+    font-size: 28px;
+  }
+
+  .about-content__text {
+    font-size: 14px;
+  }
+
+  .section-title {
+    font-size: 19px;
+  }
+
+  .courses {
+    margin-bottom: 15px;
+  }
+
+  .courses-list {
+    padding-left: 15px;
+  }
+
+  .courses-list__item {
+    font-size: 15px;
+  }
+
+  .courses-year {
+    font-size: 15px;
+  }
+
+  .courses-name {
+    font-size: 15px;
+  }
+
+  .example-code {
+    margin-bottom: 15px;
+  }
+
+  .example-code__content {
+    padding: 10px 10px 10px 30px;
+    font-size: 14px;
+  }
+
+  .skills {
+    margin-bottom: 15px;
+  }
+
+  .skills-list {
+    gap: 19px;
+    padding-left: 15px;
+    justify-content: space-evenly;
+  }
+
+  .skills-list__item img {
+    height: 60px;
+  }
+
+  .skills-js,
+  .skills-vscode,
+  .skills-bem {
+    height: 50px !important;
+  }
+
+  .my-project {
+    margin-bottom: 15px;
+  }
+
   .my-project-list {
+    padding-left: 15px;
     word-break: break-all;
+  }
+
+  .my-project-list__item {
+    font-size: 12px;
+  }
+
+  .language {
+    margin-bottom: 15px;
+  }
+
+  .language-list {
+    padding-left: 15px;
+  }
+
+  .language-list__item {
+    font-size: 15px;
+  }
+
+  .contacts {
+    margin-bottom: 15px;
+  }
+
+  .contacts-list {
+    padding-left: 15px;
+  }
+
+  .contacts-list__item {
+    font-size: 15px;
+  }
+
+  .contacts-list__value {
+    font-size: 14px;
   }
 
   .footer {
