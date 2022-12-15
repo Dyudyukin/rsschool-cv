@@ -1,11 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
   <title>RS School</title>
 </head>
+
 <body>
+  <div class="wrapper">
+    <div class="main">
+      <header class="header">
+        <a class="header-logo" href="https://github.com/Dyudyukin/rsschool-cv/tree/rsschool-cv-html">
+          <div class="logo-symbol">E</div>
+          <div class="logo-text">Evgeniy <span>Dyudyukin</span></div>
+        </a>
+        <nav class="header-menu">
+          <ul class="header-menu__list">
+            <li class="header-menu__item"><a href="#!">About Me</a></li>
+            <li class="header-menu__item"><a href="#skills">Skills</a></li>
+            <li class="header-menu__item"><a href="#my-project">My project</a></li>
+            <li class="header-menu__item"><a href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="about">
+        <div class="about-img"><img src="./img/logo.png" alt="Authors photo"></div>
+        <div class="about-content">
+          <div class="about-content__title">&lt;Beginner Front-end developer /&gt;</div>
+          <h1 class="about-content__name">Evgeniy Dyudyukin</h1>
+          <div class="about-content__text">I am a beginner frontend developer. I like studying and learning new things.
+            Turn your ideas into reality. I&nbsp;consider learning, restraint, honesty, punctuality as my main
+            qualities.
+            <br>
+            Goal: go from junior to senior.
+          </div>
+        </div>
+      </main>
+      <section class="courses">
+        <h2 class="courses-title section-title">Courses</h2>
+        <ul class="courses-list">
+          <li class="courses-list__item"><span class="courses-year">2020</span>:
+            <span class="courses-name">Skillbox</span>, course Elements HTML + CSS
+          </li>
+          <li class="courses-list__item"><span class="courses-year">2022</span>:
+            <span class="courses-name">Innopolis university</span>, course Web development basics
+          </li>
+          <li class="courses-list__item"><span class="courses-year">2022</span>:
+            <span class="courses-name">RS School</span>, JS/FE Pre-School 2022Q4
+          </li>
+        </ul>
+      </section>
+      <section class="example-code">
+        <h2 class="example-code-title section-title">Example code</h2>
+        <div class="example-code__content">
+          <span class="blue">function</span> <span class="green">getSumm</span><span class="red">(<span
+              class="orange">arr</span>) {</span><br>
+          &nbsp;&nbsp;<span class="blue">let</span> sum <span class="red">=</span> <span class="purple">0</span>;<br>
+          &nbsp;&nbsp;arr.<span class="green">map</span><span class="orange">(</span><span class="blue">function</span>
+          <span class="yellow">(<span class="orange">n</span>) {</span><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<span class="red">if</span> <span class="green">(</span>Number.<span
+            class="green">isFinite</span><span class="blue">(</span>n<span class="blue">)</span> <span
+            class="red">&&</span> n <span class="red">===</span> <span class="green">parseInt</span><span
+            class="blue">(</span>n, <span class="purple">10</span><span class="blue">)</span><span class="green">)
+            {</span><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sum <span class="red">+=</span> n;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">}</span><br>
+          &nbsp;&nbsp;<span class="yellow">}</span><span class="orange">)</span>; <span class="red">return</span>
+          sum<br>
+          <span class="red">}</span>
+        </div>
+      </section>
+      <section class="skills" id="skills">
+        <h2 class="skills-title section-title">Skills</h2>
+        <ul class="skills-list">
+          <li class="skills-list__item"><img class="skills-html" src="./img/html.png" alt="HTML5"></li>
+          <li class="skills-list__item"><img class="skills-css" src="./img/css.png" alt="CSS3"></li>
+          <li class="skills-list__item"><img class="skills-js" src="./img/javascript.png" alt="JavaScript"></li>
+          <li class="skills-list__item"><img class="skills-react" src="./img/react.png" alt="React"></li>
+          <li class="skills-list__item"><img class="skills-redux" src="./img/redux.png" alt="Redux"></li>
+          <li class="skills-list__item"><img class="skills-git" src="./img/git.png" alt="Git"></li>
+          <li class="skills-list__item"><img class="skills-vscode" src="./img/vscode.png" alt="VSCode"></li>
+          <li class="skills-list__item"><img class="skills-bem" src="./img/bem.png" alt="BEM"></li>
+        </ul>
+      </section>
+      <section class="my-project" id="my-project">
+        <h2 class="my-project-title section-title">My projects</h2>
+        <ol class="my-project-list">
+          <li class="my-project-list__item"><a
+              href="https://gitlab.com/Dyudyukin/innopolis">https://gitlab.com/Dyudyukin/innopolis</a></li>
+          <li class="my-project-list__item"><a
+              href="https://github.com/Dyudyukin/Skillbox">https://github.com/Dyudyukin/Skillbox</a></li>
+        </ol>
+      </section>
+      <section class="language">
+        <h2 class="language-title section-title">Language</h2>
+        <ul class="language-list">
+          <li class="language-list__item">Russian ( Native )</li>
+          <li class="language-list__item">English ( А1. Beginner )</li>
+        </ul>
+      </section>
+      <section class="contacts" id="contacts">
+        <h2 class="contacts-title section-title">My contacts</h2>
+        <ul class="contacts-list">
+          <li class="contacts-list__item">Discord: <a class="contacts-list__value" href="#!">dyudyukin#6396</a></li>
+          <li class="contacts-list__item">GitHub: <a class="contacts-list__value"
+              href="https://github.com/Dyudyukin">dyudyukin</a></li>
+          <li class="contacts-list__item">CodePen: <a class="contacts-list__value"
+              href="https://codepen.io/EvgeniyDyudyukin/">EvgeniyDyudyukin</a></li>
+          <li class="contacts-list__item">RS School: <a class="contacts-list__value"
+              href="https://app.rs.school/profile?githubId=dyudyukin">dyudyukin</a></li>
+          <li class="contacts-list__item">E-mail: <a class="contacts-list__value"
+              href="mailto:dyudyukin@gmail.com">dyudyukin&commat;gmail.com</a></li>
+        </ul>
+      </section>
+      <footer class="footer">
+        <a class="footer-logo" href="https://github.com/Dyudyukin/rsschool-cv/tree/rsschool-cv-html">
+          <div class="logo-text">Evgeniy <span>Dyudyukin</span></div>
+        </a>
+        <span class="footer-year">2022</span>
+        <a class="footer-link" href="https://rs.school/js/">
+          <div class="footer-rsschool"><img src="./img/rs_school_js.svg" alt="Курс «JavaScript/Front-end»"></div>
+        </a>
+      </footer>
+    </div>
+  </div>
 </body>
+
 </html>
